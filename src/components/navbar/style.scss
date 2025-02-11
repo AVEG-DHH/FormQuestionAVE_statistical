@@ -1,29 +1,30 @@
+@import '../../utils.scss';
+
 .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background: white;
-    // box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    width: 100%;
-    min-height: 70px;
+    color: #292929;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0 16px;
+    height: 70px;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     z-index: 1000;
+    background-color: $primary-bg-light;
+    display: flex;
+    align-items: center;
 
-    .navbar-logo {
-        color: #5e5d72;
-        font-size: 20px;
-        font-weight: bold;
+    &-logo {
+        width: 264px;
     }
 
-    input {
-        min-width: 50%;
-        flex: 1;
-        margin: 0 20px;
-        padding: 8px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
+    &-icon {
+        svg {
+            background: #F0F5FF;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+        }
     }
 }

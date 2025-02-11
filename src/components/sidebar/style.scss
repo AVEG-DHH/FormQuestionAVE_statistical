@@ -1,23 +1,31 @@
+@import '../../utils.scss';
+
 .sidebar-container {
-    width: 250px;
-    background: #ffffff;
-    height: calc(100vh - 70px);
-    margin-top: 50px;
-    padding: 0px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 999;
+    width: 280px;
+    background: $primary-bg-light;
+    margin-top: 70px;
+
 
     ul {
         list-style: none;
-        padding: 0;
+        padding: 12px 16px;
+
         li {
+            align-items: center;
+            border-radius: 10px;
             color: #5e5d72;
-            padding: 10px 0;
-            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: left;
+            padding: 12px;
+            text-align: left;
+            text-transform: capitalize;
+
             &:hover {
                 color: #007bff;
+                background: #f1f1f1;
+                transition: all 0.3s ease;
+                cursor: pointer;
             }
         }
     }
