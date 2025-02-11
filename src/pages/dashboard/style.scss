@@ -16,13 +16,13 @@
     }
 
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     column-gap: 2%;
     row-gap: 20px;
+    margin-bottom: 40px;
 
     &-item {
         position: relative;
-
         border-radius: 10px;
         color: #fff;
         height: 140px;
@@ -78,7 +78,6 @@
                     font-size: 36px;
                 }
             }
-
         }
     }
 }

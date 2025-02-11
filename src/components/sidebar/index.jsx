@@ -5,11 +5,11 @@ const Sidebar = () => {
         <div className="sidebar-container">
             <ul>
                 <li>Dashboard</li>
-                <li>Products</li>
+                {/* <li>Products</li>
                 <li>Orders</li>
                 <li>Messages</li>
                 <li>Settings</li>
-                <li>Logout</li>
+                <li>Logout</li> */}
             </ul>
         </div>
     );
