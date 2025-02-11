@@ -1,3 +1,35 @@
+@import '../../utils.scss';
+
 .layout-container {
     display: flex;
+    margin-top: 70px;
+
+    &-sidebar {
+        width: 280px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .open-sidebar {
+        transform: translateX(0);
+    }
+
+    .close-sidebar {
+        transform: translateX(-100%);
+        width: 0px;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    &-content {
+        width: calc(100% - 280px);
+        background: $primary-bg-main;
+        border-radius: 8px;
+        padding: 24px 16px;
+        margin: 0 16px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .full-content {
+        width: 100%;
+    }
 }
