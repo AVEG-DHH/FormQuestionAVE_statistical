@@ -5,13 +5,13 @@ import { getDatabase, ref, set } from 'firebase/database';
 
 // Thông tin cấu hình Firebase (lấy từ Firebase Console)
 const firebaseConfig = {
-    apiKey: 'AIzaSyCApfxRyhFSYh1eDxdp2-qAZyuSZh2EZl0',
-    authDomain: 'customeranswer-dfe97.firebaseapp.com',
-    projectId: 'customeranswer-dfe97',
-    storageBucket: 'customeranswer-dfe97.firebasestorage.app',
-    messagingSenderId: '542282036477',
-    appId: '1:542282036477:web:5edadae4c7ffc5f7e2fa94',
-    measurementId: 'G-3FYLJXPT80',
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    measurementId: import.meta.env.VITE_MEASUREMENT_ID,
 };
 
 // Khởi tạo Firebase

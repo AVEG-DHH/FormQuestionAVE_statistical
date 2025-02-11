@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { db, collection, getDocs } from '../../../firebase';
+import { db, collection, getDocs } from '../../firebase';
 
 const questionOrder = [
     { key: 'Age', label: 'Q1:', name: 'Age' },
@@ -12,7 +12,7 @@ const questionOrder = [
     { key: 'questionYourBuild', label: 'Q8: ', name: 'questionYourBuild' },
     { key: 'questionDreambody', label: 'Q9: ', name: 'questionDreambody' },
     { key: 'questionTarget', label: 'Q10: ', name: 'questionTarget' },
-    { key: 'questionOftenEx', label: 'Q11: ', name: 'questionOftenEx' }, 
+    { key: 'questionOftenEx', label: 'Q11: ', name: 'questionOftenEx' },
     { key: 'questionStruggle', label: 'Q12: ', name: 'questionStruggle' },
     { key: 'questionEnergyLevel', label: 'Q13: ', name: 'questionEnergyLevel' },
     { key: 'questionTypeExercise', label: 'Q14: ', name: 'questionTypeExercise' },

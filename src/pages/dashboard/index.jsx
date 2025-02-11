@@ -1,6 +1,6 @@
 import './style.scss';
 import useSurveyData from '../../hooks/surveyData';
-import SurveyChart  from '../../components/surveyChart';
+import SurveyChart from '../../components/surveyChart';
 
 const Dashboard = () => {
     const {
@@ -26,7 +26,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                         <div className="dashboard-container-total-item-content">
-                            <span>Last Month</span>
+                            {/* <span>Last Month</span> */}
                         </div>
                     </div>
                     <div className="dashboard-container-total-item item-purple">
@@ -45,7 +45,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                         <div className="dashboard-container-total-item-content">
-                            <span>Last Month</span>
+                            {/* <span>Last Month</span> */}
                         </div>
                     </div>
                     <div className="dashboard-container-total-item item-blue">
@@ -64,7 +64,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                         <div className="dashboard-container-total-item-content">
-                            <span>Last Month</span>
+                            {/* <span>Last Month</span> */}
                         </div>
                     </div>
                     {/* <div className="dashboard-container-total-item item-yellow">
