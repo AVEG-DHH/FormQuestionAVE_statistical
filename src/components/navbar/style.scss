@@ -1,0 +1,29 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: white;
+    // box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    min-height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    .navbar-logo {
+        color: #5e5d72;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    input {
+        min-width: 50%;
+        flex: 1;
+        margin: 0 20px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+}
