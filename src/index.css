@@ -88,6 +88,7 @@ video {
     font-family: 'Assistant', sans-serif !important;
     -webkit-font-smoothing: antialiased !important;
     line-height: 1;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article,
